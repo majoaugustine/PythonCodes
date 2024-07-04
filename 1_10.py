@@ -13,6 +13,7 @@ def get_student_details(n):
         students.append(student)
     return students
 
+#function to find who is top
 def find_top_student(students):
     top_student = max(students, key=lambda x: x['marks'])
     return top_student
